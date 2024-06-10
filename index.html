@@ -8,6 +8,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
         }
         h3 {
             color: green;
@@ -16,7 +17,7 @@
             margin-bottom: 20px;
             color: green;
             font-weight: bold;
-            text-align: right;
+            text-align: left;
         }
 
         .navbar a {
@@ -28,23 +29,26 @@
         h1 {
             color: green;
         }
+        #homepageintro {
+                max-width: 1000px;
+        }
        
     </style>
 </head>
 
 <body>
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html">Say Hi</a>
+        <a href="index.html">home</a>
+        <a href="about.html">about me</a>
     </div>
+    <hr>
 
     <h1>minimalist engineer.</h1>
-    <p>Welcome to my software engineering resource hub! Here, you'll find comprehensive documentation and top learning
+    <p id="homepageintro">Welcome to my software engineering resource hub! Here, you'll find comprehensive documentation and top learning
         links on key topics such as Site Reliability Engineering (SRE), Chaos Engineering, Performance Testing, Python
         Scripting, API Development, and New Relic. Dive in to enhance your skills and stay ahead in the ever-evolving
         tech landscape. Some of the documents are created by me, and some are curated after hours of researching on internet.</p>
-    <hr>
+<br>
     <h3>Documentation links</h3>
     <ul>
         <li>Developing Basic Chaos Engineering Tool : <a href="docs/Basic_Chaos_Tool_Development.pdf"

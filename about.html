@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <style>
- body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        h3 {
-            color: green;
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
         }
         .navbar {
             margin-bottom: 20px;
             color: green;
             font-weight: bold;
-            text-align: right;
+            text-align: left;
+            
         }
 
         .navbar a {
@@ -24,19 +23,61 @@
             color: #000;
         }
 
+        .content {
+            max-width: 1000px;
+   
+        }
         h1 {
+         
+            margin-bottom: 10px;
             color: green;
+        }
+        p {
+           
+            line-height: 1.6;
+        }
+        .linkedin-link {
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 18px;
+            text-decoration: none;
+            color: #0077b5;
+        }
+        h2 {
+            color: green;
+            
+        }
+        .signature {
+            font-size: 16px;
+            color: #333;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            margin-top: 20px;
         }
       
     </style>
 </head>
 <body>
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html">Say Hi</a>
+        <a href="index.html">home</a>
+        <a href="about.html">about me</a>
     </div>
-    <h1>About Me</h1>
-    <p>This is the about me page.</p>
+    <hr>
+
+    <div class="content">
+        <h1>about me</h1>
+        <p>
+            Observability / SRE Engineer with 4 years of experience delivering multiple projects in Observability and Performance Engineering for diverse clients. Expertise in Python development, New Relic APM, and Chaos Engineering with Gremlin. Demonstrated capability in leading development architecture projects and performing as a project lead. Proficient in Performance Testing using LoadRunner with multiple protocols, including WebHTTP, SAP GUI, TruClient, RDP, CitrixICA, and OracleNCA, as well as JMeter. Skilled in backend development with Flask, API development using FastAPI, and data analytics using Python libraries such as pandas, numpy, and matplotlib. Renowned for technical proficiency and a proactive approach to optimizing performance and reliability.
+        </p>
+        <br>
+        <h2>connect with me on linkedin</h2>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="shayansaha85" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/shayansaha85?trk=profile-badge"></a></div>
+        <br>
+        <div class="signature">
+            <p style="font-size: 15px; font-weight: bold;">Shayan Saha<br>shayansaha.con@gmail.com</p>
+            
+        </div>
+    </div>
 </body>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </html>
